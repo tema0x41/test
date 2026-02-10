@@ -25,7 +25,7 @@
 
 pip install dnspython
 
-#2. Запуск
+#2 Запуск
 
 #Через аргументы CLI:
 
@@ -40,7 +40,8 @@ python email_verifier.py -f emails.txt
 python email_verifier.py -v user@gmail.com
 
 
-#3. Пример вывода
+#3 Пример вывода
+
 
 ====================================================================================================
 EMAIL                               ДОМЕН                          MX              SMTP

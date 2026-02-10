@@ -60,23 +60,23 @@ pip install requests python-dotenv
 ### Проверить подключение бота
 
 ```
-python tg_sender.py --check message.txt
+python 2.py --check message.txt
 ```
 
 ### Превью (без отправки)
 
 ```
-python tg_sender.py message.txt --preview
+python 2.py message.txt --preview
 ```
 
 ### Отправить plain text
 
 ```
-python tg_sender.py message.txt
+python 2.py message.txt
 ```
 
 ### Отправить с HTML-форматированием
 
 ```
-python tg_sender.py message.txt --parse-mode HTML
+python 2.py message.txt --parse-mode HTML
 ```

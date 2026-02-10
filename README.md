@@ -21,23 +21,24 @@
 
 
 #   Инструкция по запуску
+
 ## 1. Установка зависимости
 
-pip install dnspython
+> pip install dnspython
 
 ## 2 Запуск
 
 ###  Через аргументы CLI:
 
-python email_verifier.py user@gmail.com fake@nonexistent-domain-xyz.com admin@example.org
+> python email_verifier.py user@gmail.com fake@nonexistent-domain-xyz.com admin@example.org
 
 ### Из файла (по одному email на строку):
 
-python email_verifier.py -f emails.txt
+> python email_verifier.py -f emails.txt
 
 ### Подробный лог:
 
-python email_verifier.py -v user@gmail.com
+> python email_verifier.py -v user@gmail.com
 
 
 ## 3 Пример вывода
@@ -50,6 +51,8 @@ user@gmail.com                      ✔ валиден                      gmai
 fake@nonexistent-domain-xyz.com     ✗ не найден                    —               — пропущено
 admin@example.org                   ⚠ нет MX                       —               — пропущено
 ====================================================================================================
+
+
 ⚠️ Важные замечания
 
 Catch-all серверы	Многие серверы (напр. Microsoft 365) отвечают 250 на любой RCPT TO — это не гарантия существования ящика

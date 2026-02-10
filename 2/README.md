@@ -29,17 +29,17 @@
 1. Открой Telegram → найди ```@BotFather```
 2. Отправь:  ```/newbot```
 3. Введи имя и username бота
-4. Скопируй токен:  123456789:ABCdefGHI-jklMNOpqrSTUvwxYZ
+4. Скопируй токен:  ```123456789:ABCdefGHI-jklMNOpqrSTUvwxYZ```
 
 ### Шаг 2 — Узнать свой Chat ID
 
-1. Найди бота ```@userinfobot``` (или @getmyid_bot)
-2. Напиши ему /start
+1. Найди бота ```@userinfobot``` (или ```@getmyid_bot```)
+2. Напиши ему ```/start```
 3. Он ответит твой ID: ```123456789```
    
 ### Шаг 3 — Активировать бота
 
-Найди СВОЕГО бота в Telegram → нажми /start
+Найди СВОЕГО бота в Telegram → нажми ```/start```
 (без этого бот не сможет тебе писать!)
 
 ## 2. Настройка
@@ -53,7 +53,7 @@ TG_CHAT_ID=987654321
 
 ```pip install requests python-dotenv```
 
-##4. Запуск
+## 4. Запуск
 
 ### Проверить подключение бота
 

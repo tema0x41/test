@@ -51,22 +51,32 @@ TG_CHAT_ID=987654321
 
 ## 3. Установка зависимостей
 
-```pip install requests python-dotenv```
+```
+pip install requests python-dotenv
+```
 
 ## 4. Запуск
 
 ### Проверить подключение бота
 
-```python tg_sender.py --check message.txt```
+```
+python tg_sender.py --check message.txt
+```
 
 ### Превью (без отправки)
 
-```python tg_sender.py message.txt --preview```
+```
+python tg_sender.py message.txt --preview
+```
 
 ### Отправить plain text
 
-```python tg_sender.py message.txt```
+```
+python tg_sender.py message.txt
+```
 
 ### Отправить с HTML-форматированием
 
-```python tg_sender.py message.txt --parse-mode HTML```
+```
+python tg_sender.py message.txt --parse-mode HTML
+```

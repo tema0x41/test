@@ -31,15 +31,15 @@ pip install dnspython
 
 ###  Через аргументы CLI:
 ```
-python email_verifier.py user@gmail.com fake@nonexistent-domain-xyz.com admin@example.org
+python 1.py user@gmail.com fake@nonexistent-domain-xyz.com admin@example.org
 ```
 ### Из файла (по одному email на строку):
 ```
-python email_verifier.py -f emails.txt
+python 1.py -f emails.txt
 ```
 ### Подробный лог:
 ```
-python email_verifier.py -v user@gmail.com
+python 1.py -v user@gmail.com
 ```
 
 ## 3 Пример вывода

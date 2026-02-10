@@ -21,26 +21,26 @@
 
 
 #   Инструкция по запуску
-# 1. Установка зависимости
+## 1. Установка зависимости
 
 pip install dnspython
 
-#2 Запуск
+## 2 Запуск
 
-#Через аргументы CLI:
+###  Через аргументы CLI:
 
 python email_verifier.py user@gmail.com fake@nonexistent-domain-xyz.com admin@example.org
 
-#Из файла (по одному email на строку):
+### Из файла (по одному email на строку):
 
 python email_verifier.py -f emails.txt
 
-#Подробный лог:
+### Подробный лог:
 
 python email_verifier.py -v user@gmail.com
 
 
-#3 Пример вывода
+## 3 Пример вывода
 
 
 ====================================================================================================
